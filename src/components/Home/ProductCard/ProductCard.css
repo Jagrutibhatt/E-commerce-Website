@@ -1,0 +1,22 @@
+.img-sizing {
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  align-self: center;
+}
+
+.card {
+  margin: 16px;
+  width: 20%;
+}
+
+.center {
+  background-color: #cf711f !important;
+}
+
+.btn,
+.btn-primary {
+  border: none;
+  border-color: #cf711f !important;
+  width: 100%;
+}

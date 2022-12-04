@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Sony BRAVIA Full HD TV",
+    "price": "19,990",
+    "details": "Sony BRAVIA KLV-32R202G 32 Inch LED Full HD TV",
+    "image": "https://img2.gadgetsnow.com/gd/images/products/additional/large/G124791_View_1/electronics/televisions/sony-bravia-klv-32r202g-32-inch-led-full-hd-tv.jpg"
+  },
+
+  {
+    "name": "Asus ZenBook Duo",
+    "price": "104,990",
+    "details": "Asus ZenBook Duo 14 UX482EAR-KA501WS Intel Core I5-1155G7 14 Inches Gaming Laptop",
+    "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G343400_View_1/computer-laptop/laptops/asus-zenbook-duo-14-ux482ear-ka501ws-intel-core-i5-1155g7-14-inches-gaming-laptop-8gb-512gb-ssd-windows-11-celestial-blue-1-62-kg-.jpg"
+  },
+  {
+    "name": "Apple iPhone 14",
+    "price": "79,900",
+    "details": "Apple iPhone 14 128 GB (Purple, 4 GB RAM)",
+    "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G390760_View_1/mobiles/smartphones/apple-iphone-14-128-gb-purple-4-gb-ram-.jpg"
+  },
+  {
+    "name": "BoAt Rockerz 650",
+    "price": " 1,555",
+    "details": "BoAt Rockerz 650 With 60 Hours Battery Backup On The Ear Bluetooth Headset (Active Black)",
+    "image": "https://img4.gadgetsnow.com/gd/images/products/additional/large/G298854_View_1/accessories/headphones-headsets/boat-rockerz-650-with-60-hours-battery-backup-on-the-ear-bluetooth-headset-active-black-.jpg"
+  },
+  {
+    "name": "OnePlus Nord CE",
+    "price": "19,999",
+    "details": "OnePlus Nord CE 2 Lite 5G 128 GB (Blue Tide, 6 GB RAM)",
+    "image": "https://img4.gadgetsnow.com/gd/images/products/additional/large/G298854_View_1/accessories/headphones-headsets/boat-rockerz-650-with-60-hours-battery-backup-on-the-ear-bluetooth-headset-active-black-.jpg"
+  },
+  {
+    "name": "Fitbit Luxe ",
+    "price": "10,999",
+    "details": "Fitbit Luxe FB422BKBK AMOLED (Black)",
+    "image": "https://img3.gadgetsnow.com/gd/images/products/additional/large/G347236_View_1/accessories/fitness-band/fitbit-luxe-fb422bkbk-amoled-black-.jpg"
+  },
+  {
+    "name": "Samsung 10000 mAh",
+    "price": " 3,499",
+    "details": "Samsung 10000 mAh Wireless Power Bank (EB-U1200CPNGIN, Pink)",
+    "image": "https://img4.gadgetsnow.com/gd/images/products/additional/large/G317364_View_1/accessories/power-banks/samsung-10000-mah-wireless-power-bank-eb-u1200cpngin-pink-.jpg"
+  }
+]

@@ -3,6 +3,9 @@ import "./index.css";
 
 import reportWebVitals from "./reportWebVitals";
 import Home from "./pages/Home/Home";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Home />);
