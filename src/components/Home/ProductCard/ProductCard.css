@@ -1,17 +1,28 @@
 .img-sizing {
-  width: 50%;
-  height: 50%;
+  width: 50% !important;
+  height: 50% !important;
   padding: 10px;
   align-self: center;
 }
-
+.text {
+  overflow: auto;
+}
 .card {
-  margin: 16px;
-  width: 20%;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: fit-content;
+}
+
+.uniform {
+  /* margin: 4px; */
+  height: 500px !important;
+  height: fit-content;
+  width: 300px;
 }
 
 .center {
-  background-color: #cf711f !important;
+  background-color: #fb0884 !important;
 }
 
 .btn,
@@ -20,3 +31,39 @@
   border-color: #cf711f !important;
   width: 100%;
 }
+
+.height {
+  height: 26px;
+  /* text-overflow: scroll; */
+  line-height: normal;
+  /* height: 20px; */
+}
+
+.card-title {
+  padding: 6px;
+  font-size: 16px;
+  /* min-height: 50px; */
+  border-bottom: 0.5px solid #555;
+  /* overflow: auto; */
+}
+
+.bi-star-fill {
+  color: gold;
+}
+
+.card-center {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.card-center,
+.card-body {
+  padding-top: 0px !important;
+  line-height: 8px;
+}
+
+/* .card-center,
+.card-body p {
+  line-height: 2.5px;
+} */

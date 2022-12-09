@@ -1,19 +1,29 @@
 import "./ProductCard.css";
 
-function ProductCard() {
+function ProductCard(value) {
+  // const ratingStar = Number(Math.trunc(value.item.rating.rate));
+  const stars = [];
+  for (let i = 0; i < Number(Math.trunc(value.item.rating.rate)); i++) {
+    stars[i] = 1;
+  }
+
+  console.log(stars);
   return (
-    <div className="card">
-      <img
-        src="https://img1.gadgetsnow.com/gd/images/products/additional/large/G390760_View_1/mobiles/smartphones/apple-iphone-14-128-gb-purple-4-gb-ram-.jpg"
-        className=" img-sizing"
-        alt="Iphone 14"
-      ></img>
+    <div className="card uniform">
+      <h5 className="card-title">{value.item.title}</h5>
+      <img src={value.item.image} className=" img-sizing" alt="Iphone 14"></img>
       <hr />
-      <div className="card-body">
-        <h5 className="card-title">iPhone 14</h5>
-        <p className="card-text"> &#x20b9; 95000</p>
-        <p className="card-text">Build by Apple Company</p>
-        <a href="#" className="btn btn-primary center">
+      <div className="card-body card-center">
+        <p className="card-text"> {value.item.category}</p>
+        <p className="card-text"> &#x20b9; {value.item.price}</p>
+        <p>
+          {stars.map((x) => (
+            <i class="bi bi-star-fill"></i>
+          ))}{" "}
+          <span>({value.item.rating.count})</span>
+        </p>
+        <p className="card-text text height">{value.item.description}</p>
+        <a href="/" className="btn btn-primary center">
           <i class="bi bi-cart-plus"> Cart </i>
         </a>
       </div>
